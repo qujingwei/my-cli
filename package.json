@@ -1,0 +1,21 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "my-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "my-cli": "./bin/index.js"
+  },
+  "author": "qujinwei",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "ora": "^5.4.1"
+  }
+}
