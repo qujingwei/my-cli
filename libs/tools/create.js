@@ -1,7 +1,7 @@
 const { promisify } = require('util')
 const figlet = promisify(require('figlet'))
 const chalk = require('chalk')
-const clone = require('./load')
+const clone = require('../moduls/load')
 
 const log = content => { console.log(chalk.green(content)) }
 
